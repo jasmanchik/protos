@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package metrics;
 
-option go_package = "korablev.metrics.v1;metrics_v1";
+option go_package = "korablev.metrics.v1;metricsv1";
 
 service Auth {
   rpc Ping (PingRequest) returns (PingResponse);
